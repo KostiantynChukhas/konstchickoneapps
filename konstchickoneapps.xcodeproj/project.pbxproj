@@ -148,7 +148,7 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = konstchickoneapps/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = WildPuzzle;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cricken Broadway";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -188,7 +188,7 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = konstchickoneapps/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = WildPuzzle;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cricken Broadway";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
