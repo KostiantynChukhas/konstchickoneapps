@@ -66,10 +66,16 @@ struct ChickenCard: View {
                             .stroke(chicken.rarity.color.opacity(0.4), lineWidth: 1.5)
                     )
 
-                Text(isUnlocked ? chicken.emoji : "🔒")
-                    .font(.system(size: 36))
-                    .grayscale(isUnlocked ? 0 : 1)
-                    .opacity(isUnlocked ? 1 : 0.4)
+                if isUnlocked {
+                    Image(chicken.imageName)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 50, height: 50)
+                } else {
+                    Text("🔒")
+                        .font(.system(size: 36))
+                        .opacity(0.4)
+                }
             }
             .frame(height: 72)
 

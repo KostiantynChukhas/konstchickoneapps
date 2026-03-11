@@ -135,7 +135,10 @@ struct ChestResultView: View {
                     .font(.system(size: 18, weight: .semibold, design: .rounded))
                     .foregroundColor(.secondary)
 
-                Text(c.emoji).font(.system(size: 80))
+                Image(c.imageName)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 100, height: 100)
 
                 Text(c.name)
                     .font(.system(size: 28, weight: .black, design: .rounded))

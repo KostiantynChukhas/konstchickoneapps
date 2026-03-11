@@ -15,7 +15,7 @@ struct HomeView: View {
                 .padding(.top, 16)
                 .padding(.bottom, 32)
             }
-            .navigationTitle("ChickenVerse 🐔")
+            .navigationTitle("Cricken Broadway 🐔")
             .navigationBarTitleDisplayMode(.inline)
         }
     }

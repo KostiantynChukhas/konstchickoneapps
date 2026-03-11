@@ -20,9 +20,10 @@ struct OnboardingPageView: View {
         VStack(spacing: 24) {
             Spacer()
 
-            // Swap Text(emoji) for Image(page.imageName) once assets are added
-            Text(page.emoji)
-                .font(.system(size: 100))
+            Image(page.imageName)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 200, height: 200)
                 .offset(y: bounce ? -12 : 0)
                 .animation(
                     .easeInOut(duration: 1.2).repeatForever(autoreverses: true),
@@ -58,7 +59,7 @@ struct OnboardingView: View {
     let pages: [OnboardingPage] = [
         OnboardingPage(
             emoji: "🐔",
-            title: "Welcome to\nChickenVerse!",
+            title: "Welcome to\nCricken Broadway!",
             subtitle: "Your ultimate chicken universe. Tap, collect, quiz — and cluck your way to glory!",
             imageName: "onboarding_welcome",
             color: .yellow

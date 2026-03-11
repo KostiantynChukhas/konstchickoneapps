@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "chicken_common_clucky.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

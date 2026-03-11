@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  konstchickoneapps
-//
-//  Created by Kostiantyn Chukhas on 11.03.2026.
-//
 
 import UIKit
 import SwiftUI
@@ -31,10 +25,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 // MARK: - Root View that responds to onboarding changes
 struct RootView: View {
-    @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
+    @EnvironmentObject var data: AppDataManager
     
     var body: some View {
-        if hasSeenOnboarding {
+        if data.hasCompletedOnboarding {
             ContentView()
         } else {
             OnboardingView()
